@@ -147,10 +147,8 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  console.log((numero.toString()[0]) == "-" ? "Es negativo" : numero != 0 ? "Es positivo" : false)
   return (numero.toString()[0]) == "-" ? "Es negativo" : numero != 0 ? "Es positivo" : false
 }
-esPositivo(0)
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
