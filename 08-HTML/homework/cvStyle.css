@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: #000; */
+}
+main {
+  /*background: dodgerblue;
+    */
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.description {
+  /* background: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 255px;
+  padding: 10px;
+  border: 1px solid rgba(153, 153, 153, 0.14);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.222) inset;
+}
+.description div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+  max-width: 150px;
+  max-height: 250px;
+  border-radius: 10px 10px 3px 3px;
+  -webkit-border-radius: 10px 10px 3px 3px;
+  -moz-border-radius: 10px 10px 3px 3px;
+  -ms-border-radius: 10px 10px 3px 3px;
+  -o-border-radius: 10px 10px 3px 3px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 5px 0 10px 0;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.education div{
+    width: 100%;
+    text-align: center;
+}
+span {
+  margin: 2px 0;
+}
+.corp {
+  display: flex;
+  flex-direction: column;
+  max-width: 100ch;
+  margin: 10px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  max-width: 255px;
+  margin: 10px;
+}
+.skills {
+  padding-top: 15px;
+  max-width: 255px;
+  padding: 10px;
+  border: 1px solid rgba(153, 153, 153, 0.14);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.222) inset;
+}
+.skills h3{
+    text-align: center;
+}
+.person div{
+    margin:3px;
+}
+.person div ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 5px;
+}
+.person div ul li img {
+  max-width: 20px;
+  margin: 5px 5px 0 0;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 255px;
+    padding: 10px;
+    border: 1px solid rgba(153, 153, 153, 0.14);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 15px 2px  rgba(0, 0, 0, 0.222) inset;
+}
+.hobbies h3{
+    margin-bottom: 5px;
+}
+.hobbies span{
+    text-align: center;
+}

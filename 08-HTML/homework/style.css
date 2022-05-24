@@ -1,0 +1,63 @@
+body{
+    background-image:  url("https://images.ecestaticos.com/ybeOeWqtAYmSWM5pRUyFG098Dgs=/30x131:2271x1399/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa78%2Fcdb%2F419%2Fa78cdb419882e50fc2730dd661635bc7.jpg") ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: rgb(208, 118, 53) ;
+  }
+  img {
+    width: 400px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    /*background-color: chocolate;
+    */padding: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(132, 153, 126, 0.407);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    box-shadow: 0 0 31px 9px rgba(163, 185, 162, 0.672) inset;
+}
+li{
+    list-style: none;
+}
+
+.divClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.854);
+}
+a {
+    color: rgba(255, 255, 255, 0.702);
+    text-decoration: none;
+    background: rgb( 29, 155, 240);
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+a:hover {
+    transition-delay: .2s;
+    background: rgba(29, 155, 240, 0.591);
+
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
